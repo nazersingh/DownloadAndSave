@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello hi i m here"/>
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello hi i m here"/>
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<ProgressBar-->
+            <!--android:id="@+id/pb_progress"-->
+            <!--style="?android:attr/progressBarStyleHorizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal" >-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_close"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:text="Close Me" />-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_open"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:text="open Me" />-->
+
+
+        <!--</LinearLayout>-->
+    </LinearLayout>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/ic_launcher"
+        />
+</LinearLayout>
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+        <!--/>-->
+    </LinearLayout>
